@@ -17,7 +17,7 @@ UVM testbench for a CRC-24/BLE hardware engine — the CRC used in every Bluetoo
 
 ### Run on EDA Playground
 
-The testbench runs on [EDA Playground](https://www.edaplayground.com/x/JkBV) with VCS or Xcelium — no local simulator needed.
+The testbench runs on [EDA Playground](https://www.edaplayground.com/x/tvdd) with VCS or Xcelium — no local simulator needed.
 
 ### Run from Claude Code
 
