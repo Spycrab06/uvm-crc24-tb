@@ -53,7 +53,7 @@ python3 ~/.claude/skills/eda-playground/scripts/eda_playground.py login
 This saves your session to `~/.eda-playground-auth.json`. You won't need to log in again unless the session expires.
 
 **That's it.** Now in Claude Code you can say things like:
-- "pull the files from https://www.edaplayground.com/x/JkBV"
+- "pull the files from https://www.edaplayground.com/x/tvdd"
 - "push my changes and run the sim"
 - "check the sim log for errors"
 - "fix the testbench and re-run"
@@ -66,10 +66,10 @@ You can also run the script directly:
 
 ```bash
 # Pull source files from a playground
-python3 tools/eda_playground.py pull https://www.edaplayground.com/x/JkBV
+python3 tools/eda_playground.py pull https://www.edaplayground.com/x/tvdd
 
 # Edit files locally, then push changes and run the sim
-python3 tools/eda_playground.py push-run https://www.edaplayground.com/x/JkBV
+python3 tools/eda_playground.py push-run https://www.edaplayground.com/x/tvdd
 
 # Check the log
 cat sim.log | grep -E "PASS|FAIL|SUMMARY"
